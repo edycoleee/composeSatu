@@ -1,3 +1,3 @@
 package com.example.silmidua.CobaState
-
-data class WellnessTask(val id: Int, val label: String)
+//WellnessTask.kt
+data class WellnessTask(val id: Int, val label: String, var checked: Boolean = false)
