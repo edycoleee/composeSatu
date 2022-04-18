@@ -44,12 +44,7 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     SilmiDuaTheme {
-        Box(
-            modifier = Modifier
-                .background(Color.Blue)
-                .width(100.dp)
-                .height(100.dp)
-        )
+        Greeting("Android")
     }
 }
 
